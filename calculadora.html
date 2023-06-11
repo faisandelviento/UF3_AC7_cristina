@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora JS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<body>
+    <div id="calculadora">
+        <h2>Calculadora JS</h2>
+        <div id="visor">
+            <div id="visorNum1" class="visorInput">
+                <p id="num1">--</p>
+            </div>
+            <div id="visorNum2" class="visorInput">
+                <p id="num2">--</p>
+            </div>
+        </div>
+         <div id="botonera">
+            <div id="buttons">
+                <!-- <button id="b01" onclick="funcionTecla(1)">1</button> -->
+                <button id="b01" class="bnum">1</button>
+                <button id="b02" class="bnum">2</button>
+                <button id="b03" class="bnum">3</button>
+                <button id="b04" class="bnum">4</button>
+                <button id="b05" class="bnum">5</button>
+                <button id="b06" class="bnum">6</button>
+                <button id="b07" class="bnum">7</button>
+                <button id="b08" class="bnum">8</button>
+                <button id="b09" class="bnum">9</button>
+                <button id="b00" class="bnum">0</button>
+            </div>
+            <div id="buttonsOp">
+                <!-- añadido una class a los botones -->
+                <button id="sum" class="bope" onclick="">+</button>
+                <button id="res" class="bope" onclick="">-</button>
+                <button id="mul" class="bope" onclick="">x</button>
+                <button id="div" class="bope" onclick="">/</button>
+                <button id="result" class="bope" onclick="">=</button>
+                <button id="clear" class="bope" onclick="">C</button>
+            </div>
+         </div>
+        <div class="visorResultado">
+            <label>RESULTADO:</label>
+            <p id="resultado">--</p>
+        </div>
+    </div>
+</body>
+<script src="calculadora.js"></script>
+</html>
